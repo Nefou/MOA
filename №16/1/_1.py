@@ -1,8 +1,7 @@
-# coding=windows-1251
 vaule = [40, 11, 7, 9, 16, 44, 77]
 s = 0
 f = 0
-a = int(input("Введите число:"))
+a = int(input("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:"))
 for i in vaule:
     if i <= 20:
         s += i

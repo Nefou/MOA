@@ -1,11 +1,10 @@
-# coding=windows-1251
 permissions = {
-    'W': 'Запись',
-    'R': 'Чтение',
-    'X': 'Запуск'
+    'W': 'Р—Р°РїРёСЃСЊ',
+    'R': 'Р§С‚РµРЅРёРµ',
+    'X': 'Р—Р°РїСѓСЃРє'
 }
 
-user_input = input("Введите права доступа (W, R, X), разделенные запятыми: ")
+user_input = input("Р’РІРµРґРёС‚Рµ РїСЂР°РІР° РґРѕСЃС‚СѓРїР° (W, R, X), СЂР°Р·РґРµР»РµРЅРЅС‹Рµ Р·Р°РїСЏС‚С‹РјРё: ")
 
 user_permissions = user_input.split(',')
 
@@ -14,4 +13,4 @@ for permission in user_permissions:
     if permission in permissions:
         print(permissions[permission])
     else:
-        print(f"Неизвестное право доступа: {permission}")
+        print(f"РќРµРёР·РІРµСЃС‚РЅРѕРµ РїСЂР°РІРѕ РґРѕСЃС‚СѓРїР°: {permission}")

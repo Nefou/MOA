@@ -1,4 +1,3 @@
-# coding=windows-1251
 import random
 
 vaule = random.randint(0,100)

@@ -1,16 +1,15 @@
-# coding=windows-1251 
 vala = []
 end = 1
 
 while end !=0:
-    vala.append(input("В ведите число"))
-    a = input("Вы закончили? \n Y/N\n")
+    vala.append(input("Р’ РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ"))
+    a = input("Р’С‹ Р·Р°РєРѕРЅС‡РёР»Рё? \n Y/N\n")
     if a == "Y":
         end = 0
     elif a == "N":
-        print("хорошо")
+        print("С…РѕСЂРѕС€Рѕ")
     else:
-        print("Вы ввели не верный симвл")
-        a = input("Вы закончили? \n Y/N\n")
+        print("Р’С‹ РІРІРµР»Рё РЅРµ РІРµСЂРЅС‹Р№ СЃРёРјРІР»")
+        a = input("Р’С‹ Р·Р°РєРѕРЅС‡РёР»Рё? \n Y/N\n")
 print (min(vala))
 print (max(vala))

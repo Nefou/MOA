@@ -1,4 +1,3 @@
-# coding=windows-1251
 a = 1
 b = 0
 while a != 100:

@@ -1,7 +1,6 @@
-# coding=windows-1251
 a = 0 
 while a <= 390:
     print(a)
-    print("Overwatch ëó÷øå, ÷åì Overwatch 2")
+    print("Overwatch Ð»ÑƒÑ‡ÑˆÐµ, Ñ‡ÐµÐ¼ Overwatch 2")
     a += 7
-print("Íå èãðàë â çìåéêó - íå ïîçíàë æèçíü")
+print("ÐÐµ Ð¸Ð³Ñ€Ð°Ð» Ð² Ð·Ð¼ÐµÐ¹ÐºÑƒ - Ð½Ðµ Ð¿Ð¾Ð·Ð½Ð°Ð» Ð¶Ð¸Ð·Ð½ÑŒ")

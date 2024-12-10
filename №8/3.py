@@ -1,4 +1,3 @@
-# coding=windows-1251
 emails = [
     "student1@yandex.ru",
     "student2@gmail.com",

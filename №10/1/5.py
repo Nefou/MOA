@@ -1,8 +1,7 @@
-# coding=windows-1251
 import time
-a = int(input("Введите ваше число"))
+a = int(input("Р’РІРµРґРёС‚Рµ РІР°С€Рµ С‡РёСЃР»Рѕ"))
 while a:
     print(a)
     time.sleep(1)
     a -= 1
-print("КАБУМ1!!!")
+print("РљР°СѓР±СѓРј1!!!")

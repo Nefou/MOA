@@ -1,0 +1,13 @@
+# coding=windows-1251
+vaule = [40, 11, 7, 9, 16, 44, 77]
+s = 0
+f = 0
+a = int(input("¬ведите число:"))
+for i in vaule:
+    if i <= 20:
+        s += i
+print(s)
+for u in vaule:
+    if i > a:
+        f += u
+print(f)

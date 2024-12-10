@@ -1,0 +1,7 @@
+# coding=windows-1251 
+vale = int(input("¬ведите ваше число"))
+
+if vale % 2 == 0:
+    print("„исло чЄтное")
+else:
+    print("„исло не чЄтное")

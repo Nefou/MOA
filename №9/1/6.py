@@ -1,0 +1,6 @@
+# coding=windows-1251
+s = int(input("¬ведите первое число"))
+d = int(input("¬ведите второе число"))
+
+for b in range(s, d):
+    print(b)

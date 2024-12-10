@@ -1,0 +1,12 @@
+# coding=windows-1251
+length = int(input("¬ведите размер массива "))
+arr = []
+arr1 = []
+while length != 0:
+    print("ќставшеес€ количество символов:", length)
+    vaule = int(input("¬ведите одно значение массива "))
+    arr.append(vaule)
+    if vaule != 0:
+        length -= 1
+arr1 = [x * 2 for x in arr]
+print(arr1)

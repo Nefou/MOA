@@ -1,0 +1,19 @@
+# coding=windows-1251
+vale = int(input("¬ведите день недели"))
+
+if vale == 1:
+    print("Ёто понедельник")
+elif vale == 2:
+    print("Ёто вторник")
+elif vale == 3:
+    print ("Ёто среда")
+elif vale == 4:
+    print ("Ёто четверг")
+elif vale == 5:
+    print ("Ёто п€тница")
+elif vale == 6:
+    print ("Ёто субота")
+elif vale == 7:
+    print ("Ёто воскресенье")
+else:
+    print("ѕроверьте коректность ваших данных")

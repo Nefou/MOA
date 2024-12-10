@@ -1,0 +1,13 @@
+# coding=windows-1251 
+vale = int(input("¬ведите номер вашего мес€ца"))
+
+if vale >= 1 and vale <= 2 or vale == 12:
+    print("Ёто зимний мес€ц")
+elif vale >= 3 and vale <= 5:
+    print("Ёто весенний мес€ц")
+elif vale >= 6 and vale <= 8:
+    print("Ёто летний мес€ц")
+elif vale >= 9 and vale <= 11:
+    print("Ёто осений мес€ц")
+else:
+    print("¬ы ввели не верные данные проверьте их коректность")

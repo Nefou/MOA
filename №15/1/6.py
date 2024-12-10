@@ -1,8 +1,7 @@
-# coding=windows-1251
 arr = [1,2,3,4,5,6,7]
 a = 5
 while a:
-    vaule = int(input("Введите число: "))
+    vaule = int(input("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: "))
     arr.append(vaule)
     a -= 1
 print(arr)

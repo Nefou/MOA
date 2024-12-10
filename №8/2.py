@@ -1,4 +1,3 @@
-# coding=windows-1251
 def pack_backpack(max_weight, items):
     sorted_items = sorted(items, key=lambda x: x[1], reverse=True)
 
@@ -12,19 +11,19 @@ def pack_backpack(max_weight, items):
 
     return packed_items
 
-max_weight = int(input("Введите максимальный вес (кг): "))
+max_weight = int(input("Р’РІРµРґРёС‚Рµ РјР°РєСЃРёРјР°Р»СЊРЅС‹Р№ РІРµСЃ (РєРі): "))
 
 items = [
-    ("палатка", 5),
-    ("спальный мешок", 2),
-    ("удочка", 1),
-    ("термос", 1),
-    ("салфетки", 0.1),
-    ("жвачка", 0.05)
+    ("РїР°Р»Р°С‚РєР°", 5),
+    ("СЃРїР°Р»СЊРЅС‹Р№ РјРµС€РѕРє", 2),
+    ("СѓРґРѕС‡РєР°", 1),
+    ("С‚РµСЂРјРѕСЃ", 1),
+    ("СЃР°Р»С„РµС‚РєРё", 0.1),
+    ("Р¶РІР°С‡РєР°", 0.05)
 ]
 
 packed_items = pack_backpack(max_weight, items)
 
-print("Вещи, которые помещаются в рюкзак:")
+print("Р’РµС‰Рё, РєРѕС‚РѕСЂС‹Рµ РїРѕРјРµС‰Р°СЋС‚СЃСЏ РІ СЂСЋРєР·Р°Рє:")
 for item in packed_items:
     print(item)
